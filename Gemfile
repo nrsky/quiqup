@@ -29,6 +29,10 @@ gem 'nori', require: false
 gem 'mongoid', '~>4.0.2'
 gem 'bson_ext'
 
+
+gem 'draper', '~> 2.1.0' #  Simple presenter
+
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 

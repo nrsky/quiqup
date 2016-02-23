@@ -22,4 +22,9 @@ class Disruption
 
   # embeds_many :display_points
   validates :xml_id, presence: true
+
+  #TODO decorater
+  def to_json
+    super(:only => [:coordinates_EN, :coordinates_LL])
+  end
 end

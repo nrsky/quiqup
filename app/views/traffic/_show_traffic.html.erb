@@ -1,4 +1,5 @@
 <div>
-
-  <%= @parsed_data%>
+<div>London!</div>
+  <%= content_tag :div, id: "map", class: "temp_information", data: {parsed_data: @parsed_data} do %>
+  <% end %>
 </div>

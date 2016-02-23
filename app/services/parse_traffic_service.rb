@@ -12,9 +12,12 @@ class ParseTrafficService
   def parse_traffic_xml(xml_data)
     doc = Nokogiri::XML.parse(xml_data)
     doc.remove_namespaces!
+    disruptions = []
     doc.xpath('//Disruption').each do  |element|
-      create_disruption(element)
+      #TODO move to the decorator
+      disruptions << create_disruption(element)
     end
+    disruptions
   end
 
   private
@@ -31,10 +34,8 @@ class ParseTrafficService
         disruption[child.name.to_sym] = child.text
       end
     end
-    disruption[:coordinates_EN] = element.xpath('//Point//coordinatesEN').text
-    disruption[:coordinates_LL] = element.xpath('//Point//coordinatesLL').text
+    disruption[:coordinates_LL] = element.xpath('.//Point//coordinatesLL').text
 
-    #TODO save in DB if we need to save
     disruption.save!
     disruption
   end

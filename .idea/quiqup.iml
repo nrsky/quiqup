@@ -217,6 +217,7 @@
     <orderEntry type="library" scope="PROVIDED" name="connection_pool (v2.2.0, RVM: ruby-2.1.5) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="debug_inspector (v0.0.2, RVM: ruby-2.1.5) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="diff-lcs (v1.2.5, RVM: ruby-2.1.5) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="draper (v2.1.0, RVM: ruby-2.1.5) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="erubis (v2.7.0, RVM: ruby-2.1.5) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="execjs (v2.6.0, RVM: ruby-2.1.5) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="globalid (v0.3.6, RVM: ruby-2.1.5) [gem]" level="application" />
@@ -245,6 +246,7 @@
     <orderEntry type="library" scope="PROVIDED" name="railties (v4.2.5.1, RVM: ruby-2.1.5) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rake (v10.5.0, RVM: ruby-2.1.5) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rdoc (v4.2.2, RVM: ruby-2.1.5) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="request_store (v1.1.0, RVM: ruby-2.1.5) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rspec-core (v3.4.3, RVM: ruby-2.1.5) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rspec-expectations (v3.4.0, RVM: ruby-2.1.5) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rspec-mocks (v3.4.1, RVM: ruby-2.1.5) [gem]" level="application" />
