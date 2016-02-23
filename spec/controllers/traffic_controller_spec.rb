@@ -7,6 +7,7 @@ describe TrafficController, :type => :controller do
   end
 
   it 'load_disruptions expect some data to be load' do
+    #TODO stub
     get :load_disruptions
     expect(response.status).to eq(200)
   end
